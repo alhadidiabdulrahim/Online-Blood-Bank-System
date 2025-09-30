@@ -1,0 +1,280 @@
+/*General Styles*/
+section{
+   min-height: calc(100vh - 1234px  - 723px ) ;
+}
+
+main{
+   background-color: #ddd;
+   padding: 20px;
+   min-height: calc(100vh - 50px - 53px);  
+}
+
+form{
+   padding: 20px;
+   border-radius: 10px;
+}
+
+/*Home Page Styles*/
+#mainNav .navbar-brand {
+   color: #f8f9fa;
+}
+
+#mainNav .nav-link {
+   display: block;
+   padding: 8px 10px;
+   color: #f8f9fa;
+   text-decoration: none;
+}
+
+#home-section{
+   padding-top: 15%;
+   padding-bottom: 15%;
+   padding-right: 20px;
+   padding-left: 20px;
+   background: linear-gradient(to bottom, rgba(89, 13, 34, 0.8) 0%, rgba(0,0,0, 0.4) 100%), url("../img/bg.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;
+
+}
+
+.logo-style{
+    padding: 0px 5px 0px;
+}
+
+.font1{
+   font-family: 'Raleway', sans-serif;
+   color: white;
+}
+
+.hr-line{
+   border: 2px solid rgb(255, 255, 255);
+}
+
+h1, .h1 {
+   font-size: 40px;}
+
+
+header.masthead {
+   padding-top: 160px;
+   padding-bottom: calc(21rem - 4.5rem);
+   background: linear-gradient(to bottom, rgba(89, 13, 34, 0.8) 0%, rgba(0,0,0, 0.4) 100%), url("../img/bg.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;
+}
+
+#learn-more{
+   margin: 5%;
+   padding:20px;
+   min-height: calc(100vh - 1234px  - 723px ) ;
+}
+
+.banner{
+   margin: 5%;
+   padding:20px;
+}
+
+.photo-gallery{
+   margin: 5%;
+   padding: 20px;
+}
+.slides{
+   width: 800px;
+   height: 400px;
+   border: 1px solid #FFCCD5;
+   background-color: #FFCCD5;
+   border-radius: 20%;
+}
+
+.card{
+   text-align: center;
+   margin: 5%;
+   padding:20px;
+}
+
+/*Donors&Pation Page Styles*/
+.page{
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+}
+.form-center{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 500px;
+   background: white;
+   border-radius: 10px;
+   padding-top: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+#donors-Patient{
+   background-color: #ddd;
+   padding: 20px;
+
+
+}
+/*About us Styles*/
+.page3{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+}
+.article-center{
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+#about-us{
+   background-color: #ddd;
+   padding: 20px;
+   min-height: calc(100vh - 50px - 53px);
+}
+
+#about-us div{
+   padding-left: 20%;
+   padding-right: 20%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+
+
+/*table Styles*/
+
+th{
+   text-align: left;
+}
+
+td{
+   text-align: left;
+}
+
+tr:nth-child(even){
+   background-color: #ddd;
+}
+/*Button Style*/
+
+.btnstyle1{
+   color: white;
+   background-color: #800F2F;
+   border-color: #800F2F ;
+}
+
+.btnstyle1:hover{
+   color: #800F2F;
+   background-color: #FFCCD5;
+   border-color: #800F2F ;
+}
+
+/* Calculate Page Styles*/
+.page2{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #94D2BD;
+   padding: 20px;
+   border-radius: 10px;
+}
+.i-date{
+   height: 40px;
+   border: 1px solid #0A9396 ;
+   border-radius: 5px;
+   text-align: center;
+   font-family: 'Sora', sans-serif;
+}
+.cbtn{
+   height: 40px;
+   border: 1px solid #0A9396 ;
+   border-radius: 5px;
+   color: white;
+   font-family: 'Sora', sans-serif;
+   background-color: #0A9396;
+   border-color: #0A9396 ;
+}
+.cbtn:hover{
+   color: #001219;
+   background-color: #0A9396;
+   border-color: #001219 ;
+}
+.date-calc-box{
+   border: 1px solid #E9D8A6;
+   border-radius: 5px;
+   background-color: #E9D8A6;
+   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 30%;
+   margin-right: 30%;
+   padding: 20px;
+}
+
+/* Fun page*/
+#endMessage table {  
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+#endMessage td {
+   padding: 20px 20px;
+   text-align: center;
+}
+#endMessage th{
+   border: 1px solid #800F2F; 
+}
+
+
+#endMessage td {
+   border: 1px solid #800F2F; 
+}
+
+#gamelist li { 
+   list-style: none;
+   text-align: center;
+   padding: 15px;
+   margin: 5px;
+   border: 1px solid #b0bec5;
+   border-radius: 50px;
+}
+
+#gamelist li:hover { 
+   list-style: none;
+   text-align: center;
+   padding: 15px;
+   margin: 5px;
+   border: 1px solid #800F2F;
+   border-radius: 50px;
+}
+.actionDelet{
+   background-color:lightcoral ;
+   color: black;
+   text-decoration: none;
+}
+
+.actionUpdate{
+   background-color:lightsalmon ;
+   color: black;
+   text-decoration: none;
+}
+
+.actionAdd{
+   background-color: lightgreen ;
+   color: black;
+   text-decoration: none;
+}
+
+.headerpatdonr{
+   font-size: 16pt;
+   font-family: 'Raleway', sans-serif;
+}
